@@ -21,7 +21,7 @@ function Home() {
 
             <div id="my-service" style={{ marginTop: '60px' }}>
                 <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                    <h1 className="center" style={{ fontSize: '4vw' }}>Our Services</h1>
+                    <h1 className="center" style={{ fontSize: '4vw' }}>Our <span style={{ color: '#FF00C7' }}>Services</span></h1>
                 </div>
                 <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }} id="aaa">
                     <div className="service-div">
@@ -102,7 +102,7 @@ function Home() {
             </section>
 
             <h2 className="card__title" style={{ fontSize: '39px', margin: '30px' }}>
-                <span style={{ color: '#FF00C7' }}>Our</span> Services
+               Our <span style={{ color: '#FF00C7' }}>Services</span>
             </h2>
           
 
