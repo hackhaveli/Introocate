@@ -104,44 +104,7 @@ function Home() {
             <h2 className="card__title" style={{ fontSize: '39px', margin: '30px' }}>
                 <span style={{ color: '#FF00C7' }}>Our</span> Services
             </h2>
-            <section id="service-boxs">
-                <div className="card">
-                    <div className="card__content">
-                        <h2 className="card__title">Instagram</h2>
-                        <div className="image-div">
-                            <img src="images/instagram.png" className="center" alt="Instagram Management" />
-                        </div>
-                        <h2 className="card__titles">We Can Manage Your Instagram automation of DMs, handling their pages, and account management.</h2>
-                        <div className="btn-div-center">
-                            <button className="btn">Get Service</button>
-                        </div>
-                    </div>
-                </div>
-                <div className="card">
-                    <div className="card__content">
-                        <h2 className="card__title">Content Creation</h2>
-                        <div className="image-div">
-                            <img src="images/content.png" className="center" alt="Content Creation" />
-                        </div>
-                        <h2 className="card__titles">We provide content creation services to enhance your social media presence.</h2>
-                        <div className="btn-div-center">
-                            <button className="btn">Get Service</button>
-                        </div>
-                    </div>
-                </div>
-                <div className="card">
-                    <div className="card__content">
-                        <h2 className="card__title">SEO Optimization</h2>
-                        <div className="image-div">
-                            <img src="images/seo.png" className="center" alt="SEO Optimization" />
-                        </div>
-                        <h2 className="card__titles">Optimize your online presence with our SEO services.</h2>
-                        <div className="btn-div-center">
-                            <button className="btn">Get Service</button>
-                        </div>
-                    </div>
-                </div>
-            </section>
+          
 
 
         </div>
