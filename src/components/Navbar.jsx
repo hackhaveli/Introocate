@@ -41,12 +41,12 @@ function Navbar() {
 
             <div id="sideNavbar" className="sidenav" style={{ width: "0" }}>
                 <a href="#" className="closebtn" onClick={closeNavbar} style={{ color: "white" }}>&times;</a>
-                <a href="./index.html">Home</a>
-                <a href="/">About</a>
-                <a href="./youtube.html">Youtube</a>
-                <a href="./Instagram.html">Instagram</a>
-                <a href="./Videoediting.html">Video Editing</a>
-                <a href="/" id="apply">Apply Now</a>
+                  <Link to="/">Home</Link>
+                    <Link to="/about">About</Link>
+                    <Link to="/youtube">Youtube</Link>
+                    <Link to="/instagram">Instagram</Link>
+                    <Link to="/videoediting">Video Editing</Link>
+                    <Link to="/" id="apply">Apply Now</Link>
             </div>
             {/* mobile view nav end */}
         </div>
