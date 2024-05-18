@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  overflow-x: hidden;
+  /* bg-[#f7f5f0] */
+  /* background-color: #f7f5f0; */
+}
+
+
+.slick-dots {
+  bottom: -80px; /* Adjust this value as needed */
+  margin: 0px;
+}
+/* Custom dot container */
+.custom-dots {
+  /* border: 1px solid red; */
+  margin-top: 50px;
+  justify-content: center;
+  display: flex; /* Display dots and lines in a row */
+  align-items: center; /* Align items vertically */
+  
+}
+
+/* Custom dot styles */
+.custom-dot.active {
+  background-color: #333;
+}
+
+/* Custom line styles */
+.dot-line {
+  display: flex;
+  /* width: 100%; */
+  
+  background-color: #333;
+  height: 2px;
+  flex-basis: 2%;
+  /* width: 10px; */
+  /* margin-right: 5px; */
+  margin: 0 0px;
+}
+
+@media (max-width:500px){
+  .dot-line{
+    flex-basis: 5%;
+  }
+  .custom-dots{
+    /* margin-bottom: 2000px; */
+    padding-bottom: 50px;
+  }
+}
