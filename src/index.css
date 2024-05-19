@@ -13,6 +13,9 @@ body{
   bottom: -80px; /* Adjust this value as needed */
   margin: 0px;
 }
+.slick-slide > div {
+  margin: 0 10px;
+}
 /* Custom dot container */
 .custom-dots {
   /* border: 1px solid red; */
