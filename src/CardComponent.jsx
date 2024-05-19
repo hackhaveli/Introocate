@@ -8,24 +8,7 @@ function CardComponent() {
             <div className='font-bold text-base xl:text-lg tracking-wide text-black'>Multipurpose Designing</div>
             <div className='tracking-wider leading-7 text-sm text-black'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem exercitationem, quasi tempora optio reiciendis eius placeat culpa, officia impedit, maxime a! Sunt placeat sequi, minus saepe obcaecati consequuntur aliquid excepturi.</div>
 
-            <div className='bosrder ml-auto flex flex-col items-end font-bold '>
-                <div className='flex gap-3 '>
-                    <span className='text-black'>o</span>
-                    <span className='text-black'>o</span>
-                </div>
-                <div className='flex gap-3'>
-                    <span className='text-black'>o</span>
-                    <span className='text-black'>o</span>
-                    <span className='text-black'>o</span>
-                </div>
-                <div className='flex gap-3'>
-                    <span className='text-black'>o</span>
-                    <span className='text-black'>o</span>
-                    <span className='text-black'>o</span>
-                </div>
-            </div>
-        </div>
-        // </div>
+         </div>
     )
 }
 
