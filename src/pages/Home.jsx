@@ -2,22 +2,33 @@ import React from 'react';
 import '../styles/style2.css';
 import '../styles/style.css';
 
+
 function Home() {
     return (
         <div>
             <section className="hero">
                 <h1 id="main-text">
-                    Leverage <span style={{ color: '#05FF00' }}>YouTube</span> Expertise to get <br /> leads for your <span style={{ color: '#FF00C7' }}>business</span>
+                    Helping underated <span style={{ color: '#05FF00' }}>Beginners</span>  <br /> On <span style={{ color: '#FF00C7' }}> <span style={{ color: '#05FF00' }}>Increasing</span><span style={{color:'#fff'}}> and </span> <span style={{ color: '#05FF00' }}>Managing</span> </span>
                 </h1>
-                <p id="main-para">
-                    N8Wealth is the #1 YouTube "done for you" agency, helping business owners generate <br /> more quality leads with YouTube.
-                </p>
+                {/* <div id="main-para">
+                <img src="https://img.icons8.com/?size=100&id=115362&format=png&color=000000" alt="YouTube Management" width='80' />
+                        <p> YouTube Management</p>
+                </div> */}
+                <div class="service-div">
+                    <img src="https://img.icons8.com/?size=100&id=115362&format=png&color=000000"/>
+                    <p class="paras">Youtube and Buisness Growth</p>
+                </div>
                 <div id="button-div">
                     <button id="main-button">
-                        <a href="/">I want YouTube<br />results</a>
+                        <a href="/">15min Demo Call</a>
                     </button>
                 </div>
             </section>
+            
+            <div className="para-div">
+                <h2 className='Welcomm'>Welcome To <span style={{color: 'rgb(255, 0, 199)'}}>IntroCate</span></h2>
+                <p className="Welcomm-para">This is a management agency,That is dedicated to help the hardworking,Individual,who Seriously<br/> Want's an significant increase on their youtube <br/>Buisness </p>
+            </div>
 
             <div id="my-service" style={{ marginTop: '60px' }}>
                 <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
@@ -91,6 +102,8 @@ function Home() {
                     </video>
                 </div>
             </section>
+            {/* <Work/> */}
+            
 
             <section className="thum">
                 <h3 id="thum-text">Thum<span style={{ color: '#fff' }}>b</span><span style={{ color: '#FF00C7' }}>nail</span></h3>
@@ -101,9 +114,13 @@ function Home() {
                 </div>
             </section>
 
+            
+         
+
             <h2 className="card__title" style={{ fontSize: '39px', margin: '30px' }}>
                Our <span style={{ color: '#FF00C7' }}>Services</span>
             </h2>
+            
           
 
 
