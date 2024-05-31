@@ -66,7 +66,7 @@ function Home() {
                 <div className="test"><img src="./images/Testimonial/test 1.PNG" alt="Testimonial 1" /><img src="./images/Testimonial/test 2.PNG" alt="Testimonial 2" /></div>
                 <div className="test"><img src="./images/Testimonial/test 3.PNG" alt="Testimonial 3" /><img src="./images/Testimonial/test 4.PNG" alt="Testimonial 4" /></div>
             </section>
-
+{/* 
             <section id="short-video">
                 <h2 style={{
                     color: '#FFF',
@@ -86,8 +86,8 @@ function Home() {
                         fontWeight: '400',
                         lineHeight: 'normal'
                     }}>rts</span>
-                </h2>
-                <div className="short-container">
+                </h2> */}
+                {/* <div className="short-container">
                     <video autoPlay muted loop width="240" height="400">
                         <source src="images/short-1.mp4" type="video/mp4" />
                     </video>
@@ -101,21 +101,77 @@ function Home() {
                         <source src="images/short-4.mp4" type="video/mp4" />
                     </video>
                 </div>
-            </section>
+            </section> */}
             {/* <Work/> */}
             
 
-            <section className="thum">
+            {/* <section className="thum">
                 <h3 id="thum-text">Thum<span style={{ color: '#fff' }}>b</span><span style={{ color: '#FF00C7' }}>nail</span></h3>
                 <div className="thum-container">
                     <img src="images/Thumbnail/1.jpeg" className="imgs" alt="Thumbnail 1" />
                     <img src="images/Thumbnail/2.jpeg" className="imgs" alt="Thumbnail 2" />
                     <img src="images/Thumbnail/3.jpeg" className="imgs" alt="Thumbnail 3" />
                 </div>
-            </section>
+            </section> */}
 
+<h2 className="card__title" style={{ fontSize: '39px', margin: '30px', }}>
+               How We <span style={{ color: '#FF00C7' }}>Work's</span>
+            </h2>
             
-         
+<section id="cardu">
+<div class="custom-container">
+  <div class="custom-card1"></div>
+  <div class="custom-card2"></div>
+  <div class="custom-card3">
+  We arrange a proper meeting to thoroughly understand your view. We arrange a proper meeting to thoroughly understand your view.
+  </div>
+</div>
+<div class="custom-container">
+  <div class="custom-card1"></div>
+  <div class="custom-card2"></div>
+  <div class="custom-card3">
+  We provide some experience-based strategies, offering well-tested solutions and practical insights.
+  </div>
+  
+</div>
+<div class="custom-container">
+  <div class="custom-card1"></div>
+  <div class="custom-card2"></div>
+  <div class="custom-card3">
+  Helping in improving content, enhancing the quality of information, refining your message, and boosting engagement.
+  </div>
+  
+</div>
+
+</section>
+<section id="cardu">
+<div class="custom-container">
+  <div class="custom-card1"></div>
+  <div class="custom-card2"></div>
+  <div class="custom-card3">
+  We arrange a proper meeting to thoroughly understand your view. We arrange a proper meeting to thoroughly understand your view.
+  </div>
+</div>
+<div class="custom-container">
+  <div class="custom-card1"></div>
+  <div class="custom-card2"></div>
+  <div class="custom-card3">
+  We provide some experience-based strategies, offering well-tested solutions and practical insights.
+  </div>
+  
+</div>
+<div class="custom-container">
+  <div class="custom-card1"></div>
+  <div class="custom-card2"></div>
+  <div class="custom-card3">
+  Helping in improving content, enhancing the quality of information, refining your message, and boosting engagement.
+  </div>
+  
+</div>
+
+</section>
+
+
 
             <h2 className="card__title" style={{ fontSize: '39px', margin: '30px' }}>
                Our <span style={{ color: '#FF00C7' }}>Services</span>

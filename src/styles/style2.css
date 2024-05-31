@@ -73,7 +73,7 @@ box-shadow: 0px 0px 10px 10px rgba(139, 139, 139, 0.5);
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 3vw;
+  gap: 5vw;
 }
 .service-div h2{
 font-size: 2.3vw;
@@ -599,6 +599,16 @@ position: relative;
 
   }
 }
+@media (max-width: 555px) {
+  .paras {
+      font-size: 6px;
+  }
+  .service-div {
+      font-size: 10px;
+  }
+}
+
+
 @media (max-width: 300px) {
   #aaa{
     padding-left: 0px;
@@ -733,3 +743,132 @@ position: relative;
   text-align:center;
   font-size:30px;
 }
+
+#cardu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px; /* Reduced gap for smaller screens */
+  margin-top: 100px; /* Adjusted margin for smaller screens */
+  margin-bottom: 100px; /* Adjusted margin for smaller screens */
+  flex-wrap: wrap; /* Ensure wrapping for smaller screens */
+}
+
+.custom-container {
+  margin-top: 20px; /* Adjusted margin for smaller screens */
+  width: 100%; /* Full width for smaller screens */
+  max-width: 360px; /* Maintain max-width */
+  margin-bottom: 20px; /* Adjusted margin for smaller screens */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.custom-container > * {
+  width: 100%; /* Full width for smaller screens */
+  height: auto; /* Adjust height for content */
+  border: solid 1px #bebebe;
+  background-color: #1f1f1f;
+  border-radius: 10px;
+  padding: 10px;
+  color: #fff;
+  box-shadow: 0px 8px 20px -10px #bbbbbb;
+  text-shadow: 0px 0px 5px #fff;
+  letter-spacing: 1px;
+  background-image: radial-gradient(circle 160px at 50% 120%, #353535, #1f1f1f);
+  text-align: right;
+  position: relative;
+}
+
+.custom-card1, .custom-card2 {
+  width: 100%; /* Full width for smaller screens */
+  margin: 10px 0; /* Adjust margin for spacing */
+}
+
+.custom-card3 {
+  text-align: center;
+  position: relative;
+  margin-top: 10px; /* Space between cards */
+}
+
+/* Media queries for devices with widths less than 767px */
+@media (max-width: 767px) {
+  #cardu {
+    gap: 10px; /* Further reduced gap for very small screens */
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .custom-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .custom-container > * {
+    width: 100%;
+    height: auto;
+    margin: 5px 0; /* Adjust margin for spacing */
+  }
+
+  .custom-card1, .custom-card2 {
+    display: none; /* Hide these cards for smaller screens */
+  }
+
+  .custom-card3 {
+    margin-top: 5px;
+    width: 100%; /* Ensure full width for the visible card */
+  }
+}
+
+/* Media query for devices with widths less than or equal to 767px */
+@media (max-width: 767px) {
+  #cardu {
+    gap: 10px; /* Further reduced gap for very small screens */
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .custom-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .custom-container > * {
+    width: 100%;
+    height: auto;
+    margin: 5px 0; /* Adjust margin for spacing */
+  }
+
+  .custom-card1, .custom-card2 {
+    display: none; /* Hide these cards for smaller screens */
+  }
+
+  .custom-card3 {
+    margin-top: 5px;
+    width: 100%; /* Ensure full width for the visible card */
+  }
+}
+
+/* Media query for devices with widths larger than 767px */
+@media (min-width: 768px) {
+  .custom-container {
+    flex-direction: row; /* Revert to row layout for larger screens */
+  }
+
+  .custom-container > * {
+    width: 360px; /* Original width for larger screens */
+    position: absolute; /* Original positioning for larger screens */
+  }
+
+  .custom-card1 {
+    width: 320px; /* Original width for larger screens */
+    margin: -20px 0px 0px 20px; /* Original margin for larger screens */
+  }
+
+  .custom-card2 {
+    width: 340px; /* Original width for larger screens */
+    margin: -10px 0px 0px 10px; /* Original margin for larger screens */
+  }
+}
+
