@@ -591,14 +591,26 @@ position: relative;
         margin-bottom: 20px;
     }
 }
+@media (max-width: 578px) {
+  .paras{
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+  }
+}
 @media (max-width: 300px) {
+
+  .service-div {
+      font-size: 10px;
+  }
+}
   #aaa {
       flex-direction: column; /* Change to column on smaller devices */
       padding-left: 0px;
       padding-right: 0px;
 
   }
-}
+
 @media (max-width: 555px) {
   .paras {
       font-size: 6px;
@@ -872,3 +884,12 @@ position: relative;
   }
 }
 
+@media (max-width: 500px) {
+  .service-div img {
+    width: 15vw;
+  }
+  .paras {
+    font-size: 21px;
+    margin-left: 0px;
+  }
+}
