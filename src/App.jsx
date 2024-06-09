@@ -13,7 +13,7 @@ function HomeWithCards() {
   return (
     <div>
       <Home />
-      <Cards />
+      {/* <Cards /> */}
     </div>
   )
 }

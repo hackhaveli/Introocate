@@ -1,6 +1,11 @@
 import React from 'react';
 import '../styles/style2.css';
 import '../styles/style.css';
+import FAQComponent from '../components/Faqcomponent';
+import Form from '../components/Form';
+import Started from '../components/Started';
+import Testmonial from '../components/Testmonial';
+
 
 
 function Home() {
@@ -30,25 +35,30 @@ function Home() {
                 <p className="Welcomm-para">This is a management agency,That is dedicated to help the hardworking,Individual,who Seriously<br/> Want's an significant increase on their youtube <br/>Buisness </p>
             </div>
 
-            <div id="my-service" style={{ marginTop: '60px' }}>
-                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                    <h1 className="center" style={{ fontSize: '4vw' }}>Our <span style={{ color: '#FF00C7' }}>Services</span></h1>
-                </div>
-                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }} id="aaa">
-                    <div className="service-div">
-                        <img src="./images/Youtube logo.png" alt="YouTube Management" />
-                        <h2>YouTube Management</h2>
-                    </div>
-                    <div className="service-div">
-                        <img src="./images/imstagram managment.png" alt="Instagram Management" />
-                        <h2>Instagram Management</h2>
-                    </div>
-                    <div className="service-div">
-                        <img src="./images/photoshop.png" alt="Photo Editing" />
-                        <h2>Photo Editing</h2>
-                    </div>
-                </div>
-            </div>
+{/* ###########################  O U R W O R K ############################## */}
+             <h2 className='gradient-text'>Where We Work</h2>
+<div className="cards-container">
+  <div className="carda shadowa">
+    <div className="image-container">
+      <img src="https://img.freepik.com/free-vector/blogger-review-concept_23-2148523115.jpg?t=st=1717655577~exp=1717659177~hmac=d52fb48e13c9843c7a3f13cb32fb089ac3c7964edf6c5526246bf6452cefe35c&w=740" alt="YouTube Management" />
+      <div className="overlay-text">YouTube Management</div>
+    </div>
+  </div>
+  <div className="carda shadowa">
+    <div className="image-container">
+      <img src="https://img.freepik.com/free-photo/hand-holding-smartphone-social-media-concept_23-2150208252.jpg?t=st=1717656214~exp=1717659814~hmac=12fea814b59076d916a56dded852d6280226db9f431565d25c247d2d395fc2ba&w=1060" alt="YouTube Management" />
+      <div className="overlay-text">YouTube Management</div>
+    </div>
+  </div>
+  <div className="carda shadowa">
+    <div className="image-container">
+      <img src="https://img.freepik.com/free-vector/e-sport-game-streaming-abstract-concept-illustration_335657-3855.jpg?t=st=1717656339~exp=1717659939~hmac=fc8f17a6ab355e49f5cfa20694ed475f90e5745ae0452682628caf68d15439ec&w=740" alt="YouTube Management" />
+      <div className="overlay-text">YouTube Management</div>
+    </div>
+  </div>
+</div>
+{/* ################################################################################################################## */}
+
 
             <div className="clientsdiv">
                 <h1>Clients</h1>
@@ -61,11 +71,7 @@ function Home() {
                 </div>
             </div>
 
-            <section className="testimonial">
-                <h1>Testimonials</h1>
-                <div className="test"><img src="./images/Testimonial/test 1.PNG" alt="Testimonial 1" /><img src="./images/Testimonial/test 2.PNG" alt="Testimonial 2" /></div>
-                <div className="test"><img src="./images/Testimonial/test 3.PNG" alt="Testimonial 3" /><img src="./images/Testimonial/test 4.PNG" alt="Testimonial 4" /></div>
-            </section>
+         
 {/* 
             <section id="short-video">
                 <h2 style={{
@@ -119,17 +125,21 @@ function Home() {
             </h2>
             
 <section id="cardu">
+
 <div class="custom-container">
   <div class="custom-card1"></div>
   <div class="custom-card2"></div>
   <div class="custom-card3">
+  <div id="circle"><p>01</p></div>
   We arrange a proper meeting to thoroughly understand your view. We arrange a proper meeting to thoroughly understand your view.
   </div>
 </div>
 <div class="custom-container">
+
   <div class="custom-card1"></div>
   <div class="custom-card2"></div>
   <div class="custom-card3">
+  <div id="circle"><p>02</p></div>
   We provide some experience-based strategies, offering well-tested solutions and practical insights.
   </div>
   
@@ -138,6 +148,7 @@ function Home() {
   <div class="custom-card1"></div>
   <div class="custom-card2"></div>
   <div class="custom-card3">
+  <div id="circle"><p>03</p></div>
   Helping in improving content, enhancing the quality of information, refining your message, and boosting engagement.
   </div>
   
@@ -149,13 +160,16 @@ function Home() {
   <div class="custom-card1"></div>
   <div class="custom-card2"></div>
   <div class="custom-card3">
+  <div id="circle"><p>04</p></div>
   We arrange a proper meeting to thoroughly understand your view. We arrange a proper meeting to thoroughly understand your view.
   </div>
+  
 </div>
 <div class="custom-container">
   <div class="custom-card1"></div>
   <div class="custom-card2"></div>
   <div class="custom-card3">
+  <div id="circle"><p>05</p></div>
   We provide some experience-based strategies, offering well-tested solutions and practical insights.
   </div>
   
@@ -164,6 +178,7 @@ function Home() {
   <div class="custom-card1"></div>
   <div class="custom-card2"></div>
   <div class="custom-card3">
+  <div id="circle"><p>06</p></div>
   Helping in improving content, enhancing the quality of information, refining your message, and boosting engagement.
   </div>
   
@@ -171,16 +186,28 @@ function Home() {
 
 </section>
 
+<FAQComponent/>
 
 
-            <h2 className="card__title" style={{ fontSize: '39px', margin: '30px' }}>
+<Form/>
+
+
+
+
+
+            {/* <h2 className="card__title" style={{ fontSize: '39px', margin: '30px' }}>
                Our <span style={{ color: '#FF00C7' }}>Services</span>
-            </h2>
+            </h2> */}
+           
             
-          
 
+<Started/>
+
+{/* <Testmonial/> */}
 
         </div>
+
+      
     );
 }
 
