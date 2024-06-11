@@ -4,7 +4,7 @@ import '../styles/style.css';
 import FAQComponent from '../components/Faqcomponent';
 import Form from '../components/Form';
 import Started from '../components/Started';
-import Testmonial from '../components/Testmonial';
+// import Testmonial from '../components/Testmonial';
 
 
 
