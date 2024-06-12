@@ -408,15 +408,15 @@ width: 10vw;
   font-size: 4vw;
 }
 .work .work1{
-  padding: 4vw 16vw;
+  padding: 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .work .work1 .thumbnails{
   border: 3px solid purple;
-  width: 27%;
-  height: 27vw;
+  width: 32%;
+  height: 16vw;
 box-shadow: 0px 0px 5px 5px rgba(202, 21, 247, 0.5); 
   
   object-fit: cover;
@@ -560,9 +560,11 @@ position: relative;
       .service-div img {
         width: 7vw;
       }
-      #main-button {
-        height: 65px;
-        
+      @media (max-width: 500px) {
+        #main-button {
+          height: 40px;
+          width: 62%;
+        }
       }
       
     }
