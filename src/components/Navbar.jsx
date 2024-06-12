@@ -18,7 +18,7 @@ function Navbar() {
     };
 
     return (
-        <div className='sticky top-4 z-50'>
+     <div className='sticky top-4 z-50' style="display: none;">
             <nav className="nav">
                 <img src="images/Profile/logo.png" id="logo" alt="Logo" />
                 <div className="links">
